@@ -1,0 +1,89 @@
+/* Container styling */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form styling */
+.signup-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title styling */
+.signup-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444444;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Input field styling */
+.input-field {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input field focus effect */
+.input-field:focus {
+    border-color: #6c63ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.4);
+}
+
+/* Button styling */
+.signup-button {
+    width: 100%;
+    padding: 12px 15px;
+    background: #6c63ff;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.signup-button:hover {
+    background: #5146c3;
+}
+
+/* Add some spacing for responsiveness */
+@media (max-width: 576px) {
+    .signup-form {
+        padding: 20px;
+    }
+
+    .signup-title {
+        font-size: 22px;
+    }
+
+    .input-field {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    .signup-button {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+}
